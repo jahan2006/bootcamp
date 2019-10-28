@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report DirectoryD:\WebAutomation2019\AMAZON\target\surefire-reports\html]]>
+    </line>
+  </reporter-output>
+  <suite name="Selenium Test Suite" duration-ms="10781" started-at="2019-10-26T00:42:01Z" finished-at="2019-10-26T00:42:12Z">
+    <groups>
+    </groups>
+    <test name="Automation tests" duration-ms="10781" started-at="2019-10-26T00:42:01Z" finished-at="2019-10-26T00:42:12Z">
+      <class name="homepagetest.BestTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:homepagetest.BestTest@2096442d]" name="extentSetup" is-config="true" duration-ms="110" started-at="2019-10-26T00:42:01Z" finished-at="2019-10-26T00:42:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@648c94da]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report DirectoryD:\WebAutomation2019\AMAZON\target\surefire-reports\html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setupDriver(java.lang.String, java.lang.String, java.lang.String, boolean, java.lang.String, java.lang.String)[pri:0, instance:homepagetest.BestTest@2096442d]" name="setupDriver" is-config="true" duration-ms="6402" started-at="2019-10-26T00:42:01Z" finished-at="2019-10-26T00:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[77.0]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[saucelabs]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:homepagetest.BestTest@2096442d]" name="startExtent" is-config="true" duration-ms="4" started-at="2019-10-26T00:42:08Z" finished-at="2019-10-26T00:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void homepagetest.BestTest.testbestSellers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testbestSellers()[pri:0, instance:homepagetest.BestTest@2096442d]" name="testbestSellers" duration-ms="1309" started-at="2019-10-26T00:42:08Z" finished-at="2019-10-26T00:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testbestSellers -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:homepagetest.BestTest@2096442d]" name="afterEachTestMethod" is-config="true" duration-ms="415" started-at="2019-10-26T00:42:09Z" finished-at="2019-10-26T00:42:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testbestSellers status=SUCCESS method=BestTest.testbestSellers()[pri:0, instance:homepagetest.BestTest@2096442d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:homepagetest.BestTest@2096442d]" name="cleanUp" is-config="true" duration-ms="2642" started-at="2019-10-26T00:42:10Z" finished-at="2019-10-26T00:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:homepagetest.BestTest@2096442d]" name="generateReport" is-config="true" duration-ms="100" started-at="2019-10-26T00:42:12Z" finished-at="2019-10-26T00:42:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- homepagetest.BestTest -->
+    </test> <!-- Automation tests -->
+  </suite> <!-- Selenium Test Suite -->
+</testng-results>
